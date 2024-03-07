@@ -1,0 +1,56 @@
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.blank {
+    flex: 1;
+}
+
+#left {
+    background-color: aquamarine;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+#right {
+    background-color: rgb(248, 208, 159);
+    flex: 1;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+}
+#avata{
+    width: 196px;
+    margin-top: 12px;
+    border-radius: 10px;
+    width: 86%;
+}
+.text{
+    margin-top: 7px;
+    font-weight: 600;
+}
+#blank{
+    flex: 1;
+}
+#logout{
+    padding: 10px 20px;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+.margin-top{
+    margin-top: 10px;
+    padding: 0 20px;
+}
